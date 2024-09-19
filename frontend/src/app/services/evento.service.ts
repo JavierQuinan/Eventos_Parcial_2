@@ -5,9 +5,9 @@ import { Evento } from '../../../Interfaces/evento.model';
 
 @Injectable({
   providedIn: 'root'
-})
+}) 
 export class EventosService {
-  apiurl = 'http://localhost/Sistema_Eventos_Deportivos/controllers/eventos.controller.php?op=';
+  apiurl = 'http://localhost/Eventos_Parcial_2/Deportivos/controllers/eventos.controller.php?op=';
   constructor(private lector: HttpClient) {}
 
   buscar(texto: string): Observable<Evento> {
