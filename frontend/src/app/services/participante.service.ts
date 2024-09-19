@@ -7,7 +7,7 @@ import { Participante } from '../../../Interfaces/participante.model';
   providedIn: 'root'
 })
 export class ParticipantesService {
-  apiurl = 'http://localhost/Sistema_Eventos_Deportivos/controllers/participantes.controller.php?op=';
+  apiurl = 'http://localhost/Eventos_Parcial_2/Deportivos/controllers/participantes.controller.php?op=';
   constructor(private lector: HttpClient) {}
 
   buscar(texto: string): Observable<Participante> {
