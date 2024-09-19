@@ -7,7 +7,7 @@ import { Inscripcion } from '../../../Interfaces/inscripcion.model';
   providedIn: 'root'
 })
 export class InscripcionesService {
-  apiurl = 'http://localhost/Sistema_Eventos_Deportivos/controllers/inscripciones.controller.php?op=';
+  apiurl = 'http://localhost/Eventos_Parcial_2/Deportivos/controllers/inscripciones.controller.php?op=';
   constructor(private lector: HttpClient) {}
 
   buscar(texto: string): Observable<Inscripcion> {
