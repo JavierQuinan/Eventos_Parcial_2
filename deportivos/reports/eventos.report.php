@@ -1,10 +1,7 @@
 <?php
-
-// Mostrar errores para depuración (quitar en producción)
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// Asegurarse de que no se está enviando ninguna salida antes de las cabeceras
 ob_start();
 
 // Cargar FPDF
