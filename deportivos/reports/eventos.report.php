@@ -66,7 +66,7 @@ foreach ($eventos as $evento) {
 }
 
 // Espacio para más información (Inscripciones y Participantes)
-// Puedes agregar más secciones de reportes según sea necesario para Inscripciones y Participantes.
+// Se puede agregar más secciones de reportes según sea necesario para Inscripciones y Participantes.
 
 $pdf->Ln(10);
 $pdf->SetFont('Arial', 'B', 10);
